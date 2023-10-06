@@ -833,6 +833,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
 .block {
   display: block;
 }
@@ -941,6 +945,10 @@ video {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-2 {
   width: 0.5rem;
 }
@@ -1003,6 +1011,12 @@ video {
 
 .resize {
   resize: both;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .grid-cols-1 {
@@ -1069,6 +1083,11 @@ video {
 
 .border-0 {
   border-width: 0px;
+}
+
+.border-\[\#eaeaea\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(234 234 234 / var(--tw-border-opacity));
 }
 
 .bg-\[\#bdefd6\] {
@@ -1207,6 +1226,11 @@ video {
   padding-bottom: 4px;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1225,6 +1249,10 @@ video {
 
 .pt-32 {
   padding-top: 8rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .text-center {
@@ -1344,6 +1372,14 @@ video {
   letter-spacing: 3px;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
 .text-\[\#3c3c3c\] {
   --tw-text-opacity: 1;
   color: rgb(60 60 60 / var(--tw-text-opacity));
@@ -1432,6 +1468,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#a5a5a5\] {
+  --tw-text-opacity: 1;
+  color: rgb(165 165 165 / var(--tw-text-opacity));
 }
 
 .blur {
@@ -1532,6 +1573,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.focus\:bg-white:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
@@ -1598,8 +1649,20 @@ video {
     display: block;
   }
 
+  .lg\:inline-flex {
+    display: inline-flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:h-\[24vh\] {
     height: 24vh;
+  }
+
+  .lg\:w-\[704px\] {
+    width: 704px;
   }
 
   .lg\:grid-cols-3 {
@@ -1647,6 +1710,14 @@ video {
 
   .xl\:h-\[18vh\] {
     height: 18vh;
+  }
+
+  .xl\:w-\[336px\] {
+    width: 336px;
+  }
+
+  .xl\:w-\[737px\] {
+    width: 737px;
   }
 
   .xl\:bg-\[\#f6f9f8\] {
