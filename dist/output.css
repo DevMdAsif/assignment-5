@@ -620,6 +620,10 @@ video {
   top: 0px;
 }
 
+.left-4 {
+  left: 1rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1648,6 +1652,18 @@ video {
     grid-column: span 2 / span 2;
   }
 
+  .sm\:mr-7 {
+    margin-right: 1.75rem;
+  }
+
+  .sm\:mr-20 {
+    margin-right: 5rem;
+  }
+
+  .sm\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1697,6 +1713,14 @@ video {
 
   .md\:text-\[35px\] {
     font-size: 35px;
+  }
+}
+
+@media (min-width: 640px) {
+  @media (min-width: 1024px) {
+    .sm\:lg\:mr-20 {
+      margin-right: 5rem;
+    }
   }
 }
 
