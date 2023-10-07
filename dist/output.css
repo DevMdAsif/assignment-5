@@ -592,6 +592,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .-top-2 {
   top: -0.5rem;
 }
@@ -610,6 +614,10 @@ video {
 
 .right-6 {
   right: 1.5rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-10 {
@@ -807,10 +815,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-40 {
-  margin-bottom: 10rem;
 }
 
 .block {
@@ -1116,10 +1120,6 @@ video {
 .bg-\[\#ffffff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[white-rgba\] {
-  background-color: white-rgba;
 }
 
 .bg-transparent {
@@ -1598,6 +1598,11 @@ video {
   background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 
+.hover\:text-\[\#57a37e\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(87 163 126 / var(--tw-text-opacity));
+}
+
 .hover\:text-\[\#bdefd6\]:hover {
   --tw-text-opacity: 1;
   color: rgb(189 239 214 / var(--tw-text-opacity));
@@ -1611,11 +1616,6 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#57a37e\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(87 163 126 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
